@@ -1,0 +1,35 @@
+
+.tile {
+    height: 20rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__details {
+        display: flex;
+        flex-direction: column;
+
+        &--header {
+            font-size: 3rem;
+
+            &--sub {
+                font-size: 2rem;
+                font-weight: 100;
+            }
+        }
+    }   
+}
+
+.shadow {
+    padding: 2rem;
+    background-image: url('../../../assets/img/cellGradientBackground@2x.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

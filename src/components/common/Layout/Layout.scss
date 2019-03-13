@@ -1,0 +1,14 @@
+
+.layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: sans-serif;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+}

@@ -1,0 +1,25 @@
+@import '../../../assets/scss';
+
+.footer {
+    height: 8rem;
+    display: flex;
+    font-size: 1rem;
+    color: white;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    align-items: center;
+    background-color: rgb(42,42,42);
+
+    &__icon {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        & > img {
+            height: 3.2rem;
+            width: 3.2rem;
+        }
+    }
+}
